@@ -1,5 +1,7 @@
 package everland;
 
+
+
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -220,7 +222,7 @@ public class everland {
 		
 		
 		for (int i=0;i<count;i++) {
-			System.out.printf("%s티켓 %s X %d장 총 %7d원 %s 적용\n",saveTicketKind[i],saveAgeText[i],saveQuantity[i],savePrice[i],savePref[i]);
+			System.out.printf("%s티켓 %s X %d장 총 %7d원 %s \n",saveTicketKind[i],saveAgeText[i],saveQuantity[i],savePrice[i],savePref[i]);
 			
 		}
 			
