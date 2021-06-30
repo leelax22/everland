@@ -9,12 +9,6 @@ public class ArrayListControll {
 	int realTotalPrice =0;
 	int inputContinue;
 
-//	public ArrayList<String> saveTicketKind = new ArrayList<String>();
-//	public ArrayList<String> saveAgeText = new ArrayList<String>();
-//	public ArrayList<Integer> saveQuantity = new ArrayList<Integer>();
-//	public ArrayList<Integer> savePrice = new ArrayList<Integer>();
-//	public ArrayList<String> savePref = new ArrayList<String>();
-	
 	public ArrayList<dataClass> arrData = new ArrayList<dataClass>();
 		
 	public void saveDataClear() {
@@ -48,10 +42,10 @@ public class ArrayListControll {
 															arrData.get(i).saveQuantity,arrData.get(i).savePrice,arrData.get(i).savePref);
 			
 			if (arrData.get(i).isCoupon==1) {
-				System.out.println("쿠폰이 있으시네요");
+				System.out.println("쿠폰이 있습니다.");
 			}
 			else {
-				System.out.println("쿠폰이 없으시네요");
+				System.out.println("쿠폰이 없습니다.");
 			}
 			
 			
