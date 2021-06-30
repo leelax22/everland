@@ -1,3 +1,3 @@
-# everland_project
+# everland
 클라우드시스템 개발자 과정 수업
 자바 수업의 에버랜드 프로젝트 파일입니다.
