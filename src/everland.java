@@ -22,7 +22,9 @@ public class everland {
 				EverProcess.idfNumCheck();
 				EverProcess.ticketKindCheck();
 				EverProcess.priceCheck();
-				ArrayProcess.saveDataInsert(EverProcess.ticketKind, EverProcess.ageText, EverProcess.inputQuantity, EverProcess.totalPrice, EverProcess.pref);
+				
+				EverProcess.couponCheck();
+				ArrayProcess.saveDataInsert(EverProcess.ticketKind, EverProcess.ageText, EverProcess.inputQuantity, EverProcess.totalPrice, EverProcess.pref, EverProcess.inputCoupon);
 
 				System.out.println("계속 구매하시려면 1을, 구매를 종료하시려면 2를 입력해주세요.");
 				ArrayProcess.inputContinue = myInput.nextInt();

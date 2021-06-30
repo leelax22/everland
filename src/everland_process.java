@@ -30,6 +30,7 @@ public class everland_process {
 	int inputIdfNum;
 	int inputQuantity;
 	int inputPref;
+	int inputCoupon;
 	
 	Scanner myInput = new Scanner(System.in);
 
@@ -175,6 +176,9 @@ public class everland_process {
 	}
 
 	
-	
+	public void couponCheck() {
+		System.out.println("쿠폰이 있으면 1, 없으면 2를 입력해주세요.");
+		inputCoupon=myInput.nextInt();		
+	}
 	
 }
