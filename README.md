@@ -1,2 +1,3 @@
-# javabasic
-클라우드시스템 개발자 과정 수업을 위한 kopo14의 github입니다.
+# everland_project
+클라우드시스템 개발자 과정 수업
+자바 수업의 에버랜드 프로젝트 파일입니다.
